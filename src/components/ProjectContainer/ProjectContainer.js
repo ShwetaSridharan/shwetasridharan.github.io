@@ -2,10 +2,24 @@ import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
+import ProjectOne from './ProjectOne'
+import Navigation from './Navigation'
+// import {ProjectOne} from './ProjectOne'
+
+
 
 const ProjectContainer = ({ project }) => (
+  // <Router>
   <div className='project'>
+   
+    
+    
     <h3>{project.name}</h3>
+    {/* <Navigation/>
+    <Switch>
+      <Route exact path="/projectone" component= {ProjectOne}/>
+    </Switch> */}
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -17,6 +31,8 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
+
+
 
     {project.sourceCode && (
       <a
@@ -37,7 +53,10 @@ const ProjectContainer = ({ project }) => (
         <LaunchIcon />
       </a>
     )}
+    
   </div>
+  // </Router>
 )
+
 
 export default ProjectContainer

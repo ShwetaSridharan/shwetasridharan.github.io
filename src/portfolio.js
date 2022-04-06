@@ -1,71 +1,79 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://shwetasridharan.github.io',
+  title: 'Shweta Sridharan',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Shweta',
+  role: 'UX/UI Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Personality type: ENFJ-A',
+  description1: 'Hardworking, reliable',  
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/shweta-sridharan/',
+    github: 'https://github.com/ShwetaSridharan',
   },
+  
 }
+
+
 
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Battledot',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Created a Linux-running, peer to peer, multi-threaded and a multi-process spinoff of the popular game where the players, in a ring formation bomb each other’s dot ships until one player remains.',
+    stack: ['Python'],
+    sourceCode: 'https://github.com/ShwetaSridharan/Battledot',
+    // livePreview: 'https://github.com/ShwetaSridharan/Battledot',
   },
   {
-    name: 'Project 2',
+    name: 'Vaxman',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Vax-Man is a re-implementation of Pacman, created in C++, using the Qt library.',
+    stack: ['C++', 'QMake'],
+    sourceCode: 'https://github.com/ShwetaSridharan/Vaxman',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'On Memory Neurotechnologies',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Evaluation of user-centered design for the development of effective neurotechnology devices',
+    stack: ['React', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/ShwetaSridharan/Onmemoryneurotechnolgy',
+    // livePreview: 'https://github.com',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
   'React',
+  'Angular',
+  'C++',
   'Redux',
+  'HTML',
+  'CSS',
   'SASS',
+  'Tailwind UI',
   'Material UI',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Unity Engine',
+  'Revit',
+
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'shweta3@ualberta.ca',
 }
 
 export { header, about, projects, skills, contact }
