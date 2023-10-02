@@ -1,1 +1,9 @@
-theme: jekyll-theme-Minima
+#Site Settings
+title: My portfolio website
+author:
+  name: Shweta Sridharan
+  email: shweta3@ualberta.ca
+description: "List of my projects and professional portfolio"
+
+#build Settings
+remote_theme: jekyll/minima
