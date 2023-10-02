@@ -7,3 +7,5 @@ description: "List of my projects and professional portfolio"
 
 #build Settings
 remote_theme: jekyll/minima
+minima:
+  skin: solarized-light
